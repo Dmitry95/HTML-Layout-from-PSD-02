@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="windows-1251" />
+<title>Main page</title>
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+<div id="bg-right">
+  <div id="wrap">
+  	<a id="back-top" href="#top">
+        <div id="back-top-arrow"></div>
+        <p>Наверх</p>
+    </a>
+    <div id="support">
+    	<a href="#" id="call"></a>
+    </div>
+	<header>
+        <div id="header-top">
+          <div id="logo">
+          	<a href="#"><img src="images/logo.png" alt="EcoBell" /></a>
+            <h2>Здоровье и уют мы в дом несём</h2>            
+          </div>
+          <div class="contacts">
+          	<div class="phone-img"></div>
+            <div class="call">
+            	<h2>Контакты</h2>
+          		<p><span class="code">8 495</span> <span>801 48 20</span> Москва</p>
+            	<p><span class="code">8 800</span> <span>801 48 20</span> Звонки по России</p>
+            	<form name="formcontact" method="post" >
+            		<input class="button-contact" name="button_contact" src="images/call_button.png" type="image" alt="Заказать звонок" />
+            	</form>
+            </div>           
+          </div>
+          <div class="sign-in">
+          	<p>Регистрация / Вход</p>
+            <form name="formsignin" method="post" >
+            <p><input name="editbox_search" class="input-sign-in" maxlength="80" value="Логин"  onblur="if (this.value=='') this.value='Логин';" onfocus="if (this.value=='Логин') this.value='';" type="text" /></p>
+            <p><input name="editbox_search" class="input-sign-in"  maxlength="80" value="Пароль"  onblur="if (this.value=='') this.value='Пароль';" onfocus="if (this.value=='Пароль') this.value='';" type="password" /></p>
+            <p><input class="button-sign-in" name="button_contact" src="images/sign_in_button.png" type="image" alt="Войти" /></p>
+            </form>           
+          </div>
+          <div class="cart">
+            <h2>Корзина</h2>
+          	<p>0 товаров на сумму - 0.00 руб</p>  
+          </div>
+        </div>
+        <div id="header-bottom">
+        	<div class="banners">          
+            	<a href="#"><img src="images/banner1.png" alt="Здоровый сон, с экологическим текстилем" /></a>
+                <a href="#"><img src="images/banner2.png" alt="Бесплатная доставка" /></a>
+        		<a href="#"><img src="images/banner3.png" alt="Заказ пошива по индивидуальным размерам" /></a>
+        		<a href="#"><img src="images/banner4.png" alt="Прием заказов 24 часа" /></a>
+        		<a href="#"><img src="images/banner5.png" alt="Мы в соцсетях" /></a>
+        	</div>
+        </div>        
+    </header>
+    
+    <div class="full-resize">
+      <div id="left-sidebar">
+        <div class="catalog-top"></div>
+        <div id="search">
+          	<form name="formsearch" method="post" >
+            	<span>
+              		<input name="editbox_search" class="editbox_search" id="editbox_search" maxlength="80" value="Поиск"  onblur="if (this.value=='') this.value='Поиск';" onfocus="if (this.value=='Поиск') this.value='';" type="text" />
+              		<input name="button_search" src="images/search-button.png" class="button_search" type="image" alt="search" />
+				</span>
+          	</form>
+        </div>
+        <div class="catalog">
+        	<ul>
+            	<li><a href="#">Постельное белье</a></li>
+                <li><a href="#">простыни</a></li>
+                <li><a href="#">пододеяльники</a></li>
+                <li><a href="#">наволочки</a></li>
+                <li><a href="#">подушки</a></li>
+                <li><a href="#">Одеяла</a></li>
+                <li><a href="#">покрывала</a></li>
+                <li><a href="#">матрасы</a></li>
+                <li><a href="#">ткани</a></li>
+                <li><a href="#">полотенца</a></li>
+                <li><a href="#">халаты</a></li>
+                <li><a href="#">скатерти</a></li>
+                <li><a href="#">занавески</a></li>
+                <li><a href="#">кастрюли и ковши</a></li>
+                <li><a href="#">сковороды и сотейники</a></li>
+                <li><a href="#">наборы посуды</a></li>
+                <li><a href="#">крышки</a></li>
+                <li><a href="#">формы для выпески</a></li>
+                <li><a href="#">аксессуары</a></li>
+                <li><a href="#">столовые приборы</a></li>
+                <li><a href="#">чайники</a></li>
+            </ul>
+        </div>
+        
+        <div class="sale">
+            <h2>Скидка</h2>
+            <div class="price-block"><p class="title-price">Цена</p><p class="last-price">2000 руб</p></div>
+            <div class="price-block"><p class="title-price">Спец. цена</p><p class="price">1500 руб.</p></div>
+            <div class="clr"></div>
+            <a href="#"><img src="images/sale.jpg" alt="sale"></a>
+            <div class="time-blocks">
+            	<div class="time-block">0</div><div class="time-block">4</div>
+                <p>Часов</p>
+            </div>
+            <div class="time-blocks">
+            	<div class="time-block">2</div><div class="time-block">0</div>
+                <p>Минут</p>
+            </div>
+            <div class="time-blocks">
+            	<div class="time-block">5</div><div class="time-block">9</div>
+                <p>Секунд</p>
+            </div>
+            <div class="clr"></div>
+        </div>
+        
+        <div class="menu-block">
+        	<h3>Сейчас на сайте:</h3>
+            <p>5 пользователей и 10 гостей</p>
+            <h3 class="sub-title-red">Пользователи</h3>
+        	<ul>
+            	<li><a href="#">Mikhail</a></li>
+                <li><a href="#">Vladimir</a></li>
+                <li><a href="#">Pavel</a></li>
+            </ul>
+        </div>
+        <div class="menu-block">
+        	<h3>Отзывы покупателей:</h3>
+            <p>Автор: <a href="#" class="author-name">Андрей</a> <span class="time">16.12.13</span></p>
+        	<p>Тут будет отзыв, давно так фильм не держал в напряжении и не заставлял сопереживать главному герою..оскар дадут однозначно</p>
+            <a href="#" style="read-more">Посмотреть все...</a>
+        </div>
+      </div>        
+   	  <div id="content">
+      	<div class="speedbar">
+        	<span><a href="#">Главная</a> >></span>
+        </div>
+        <div class="products-banners">
+            <div class="product-banner">
+            	<a href="#"><img src="images/catalog_screanshot1.png" alt="tag"/></a>
+                <a href="#" class="title">Постельное белье</a>
+            </div>
+            <div class="product-banner">
+                <a href="#"><img src="images/catalog_screanshot2.png" alt="tag"/></a>
+                <a href="#" class="title">одеяла</a>
+                </div>
+            <div class="product-banner">
+                <a href="#"><img src="images/catalog_screanshot3.png" alt="tag"/></a>
+                <a href="#" class="title">подушки</a>
+                </div>
+            <div class="product-banner">
+                <a href="#"><img src="images/catalog_screanshot4.png" alt="tag"/></a>
+                <a href="#" class="title">покрывала</a>
+                </div>
+            <div class="product-banner">
+                <a href="#"><img src="images/catalog_screanshot5.png" alt="tag"/></a>
+                <a href="#" class="title">халаты</a>
+                </div>
+            <div class="product-banner">
+                <a href="#"><img src="images/catalog_screanshot6.png" alt="tag"/></a>
+                <a href="#" class="title">полотенца</a>
+                </div>
+            <div class="product-banner">
+                <a href="#"><img src="images/catalog_screanshot7.png" alt="tag"/></a>
+                <a href="#" class="title">скатерти</a>
+                </div>
+            <div class="product-banner">
+                <a href="#"><img src="images/catalog_screanshot8.png" alt="tag"/></a>
+                <a href="#" class="title">посуда</a>
+            </div>         	
+        </div>
+        <h2>Новинки</h2>
+        <div class="short-descriptions">
+        	<div class="short-description-block">
+            	<a href="#"><img src="images/last_image.jpg" alt="tag"/></a>
+                <a href="#"><h2>Asabella</h2></a>
+                <p>Постельное белье</p>
+                <p class="price">9 020 руб.</p>
+                <a href="#" class="add-to-cart"><img src="images/add_to_cart.png" alt="В корзину" /></a>
+        	</div>
+            <div class="short-description-block">
+            	<a href="#"><img src="images/last_image.jpg" alt="tag"/></a>
+                <a href="#"><h2>Asabella</h2></a>
+                <p>Постельное белье</p>
+                <p class="price">9 020 руб.</p>
+                <a href="#" class="add-to-cart"><img src="images/add_to_cart.png" alt="В корзину" /></a>
+        	</div>
+            <div class="short-description-block">
+            	<a href="#"><img src="images/last_image.jpg" alt="tag"/></a>
+                <a href="#"><h2>Asabella</h2></a>
+                <p>Постельное белье</p>
+                <p class="price">9 020 руб.</p>
+                <a href="#" class="add-to-cart"><img src="images/add_to_cart.png" alt="В корзину" /></a>
+        	</div>
+            <div class="short-description-block">
+            	<a href="#"><img src="images/last_image.jpg" alt="tag"/></a>
+                <a href="#"><h2>Asabella</h2></a>
+                <p>Постельное белье</p>
+                <p class="price">9 020 руб.</p>
+                <a href="#" class="add-to-cart"><img src="images/add_to_cart.png" alt="В корзину" /></a>
+        	</div>
+            <div class="short-description-block">
+            	<a href="#"><img src="images/last_image.jpg" alt="tag"/></a>
+                <a href="#"><h2>Asabella</h2></a>
+                <p>Постельное белье</p>
+                <p class="price">9 020 руб.</p>
+                <a href="#" class="add-to-cart"><img src="images/add_to_cart.png" alt="В корзину" /></a>
+        	</div>
+            <div class="short-description-block">
+            	<a href="#"><img src="images/last_image.jpg" alt="tag"/></a>
+                <a href="#"><h2>Asabella</h2></a>
+                <p>Постельное белье</p>
+                <p class="price">9 020 руб.</p>
+                <a href="#" class="add-to-cart"><img src="images/add_to_cart.png" alt="В корзину" /></a>
+        	</div>
+            <div class="short-description-block">
+            	<a href="#"><img src="images/last_image.jpg" alt="tag"/></a>
+                <a href="#"><h2>Asabella</h2></a>
+                <p>Постельное белье</p>
+                <p class="price">9 020 руб.</p>
+                <a href="#" class="add-to-cart"><img src="images/add_to_cart.png" alt="В корзину" /></a>
+        	</div>
+            <div class="short-description-block">
+            	<a href="#"><img src="images/last_image.jpg" alt="tag"/></a>
+                <a href="#"><h2>Asabella</h2></a>
+                <p>Постельное белье</p>
+                <p class="price">9 020 руб.</p>
+                <a href="#" class="add-to-cart"><img src="images/add_to_cart.png" alt="В корзину" /></a>
+        	</div>           
+            <div class="clr"></div>            
+        </div>
+        <div class="clr"></div>  
+      </div>
+      <div class="clr"></div>  
+    </div>
+    <footer>
+      <div class="social">
+      	<a href="#"><img src="images/google_icon.jpg" alt="google" /></a>
+        <a href="#"><img src="images/vkontakte_icon.jpg" alt="vkontakte" /></a>
+        <a href="#"><img src="images/facobook_icon.jpg" alt="facobook" /></a>
+        <a href="#"><img src="images/twitter_icon.jpg" alt="twitter" /></a>
+        <a href="#"><img src="images/odnoklassniki_icon.jpg" alt="odnoklassniki" /></a>
+      </div>
+      <div class="footer-center">
+      	<p><a href="#">Главная</a>  |  <a href="#">О Нас</a>   |   <a href="#">Новости</a>   |   <a href="#">Контакты</a>   |  <a href="#">SALE</a></p>
+      	<p><a href="#">ecobellopt</a> © 2013 Все права защищены</p>
+      </div>
+      <div class="contacts">
+          	<div class="call">
+            	<h2>Контакты</h2>
+          		<p><span class="code">8 495</span> <span>801 48 20</span> Москва</p>
+            	<p><span class="code">8 800</span> <span>801 48 20</span> Звонки по России</p>
+            	<form name="formcontact-footer" method="post" >
+            		<input class="button-contact" name="button_contact" src="images/contacts-button-footer.png" type="image" alt="Заказать звонок" />
+            	</form>
+            </div>          
+      </div>
+    </footer>
+  </div>
+</div>
+</body>
+</html>
